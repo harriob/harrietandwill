@@ -54,6 +54,7 @@ a:hover, a:focus{
 .btn-lg{
 	padding: 20px 80px;
 	font-size: 28px;
+	margin: 10px;
 }
 
 .container {
