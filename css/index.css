@@ -1,5 +1,59 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	background: #F0F4F3;
+	color: #555;
+}
+
+.header{
+	padding-top: 20px;
+	position: fixed;
+	height: 80px;
+	top: 0;
+	z-index: 9999;
+	background: #F0F4F3;
+/*	border-bottom: 4px dotted #FFD561;*/
+}
+
+.header ul li a, .header ul li a:focus{
+	text-transform: uppercase;
+	color: #555;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
+	opacity: 1;
+}
+
+.header ul li a:hover{
+	background: none;
+	cursor: hand;
+	cursor: pointer;
+	color: #555;
+	opacity: 0.5;
+}
+
+a{
+	color: #fff;
+	opacity: 0.5;
+}
+
+a:hover, a:focus{
+	color: #fff;
+}
+
+.btn{
+	background-color: #72C39D;
+	color: #fff;
+	opacity: 1;
+}
+
+.btn:hover{
+	background-color: #72C39D;
+	color: #fff;
+	opacity: 1;
+}
+
+.btn-lg{
+	padding: 20px 80px;
+	font-size: 28px;
 }
 
 .container {
@@ -17,7 +71,7 @@ h1.main-header{
 	text-align: center;
 	font-size: 56px;
 	margin-bottom: 10px;
-	margin-top: 0px;
+	margin-top: 20px;
 }
 
 p.sub-header{
@@ -25,24 +79,16 @@ p.sub-header{
 	text-transform: uppercase;
 	font-size: 26px;
 	font-family: 'Open Sans Condensed', sans-serif;
+	color: #555;
 }
 
 h1{
 	text-transform: uppercase;
-	color: #333;
+	color: #555;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 56px;
 	margin-top: 60px;
 	margin-bottom: 40px;
-}
-
-.header{
-	padding-top: 20px;
-	position: fixed;
-	height: 80px;
-	top: 0;
-	z-index: 9999;
-	background: #fff;
 }
 
 .buntingLeft{
@@ -52,23 +98,29 @@ h1{
 }
 
 .buntingRight{
-	position: absolute;
-	right: 0;
-	top: 50;
+	background-image: url("../images/buntingRight.png");
+	width: 50px;
+	height: 50px;
 }
 
-.header ul li a, .header ul li a:focus{
-	text-transform: uppercase;
-	color: #333;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
+.polaroid {
+/*	border: 1px solid #bbb;*/
+    -webkit-box-shadow: 3px 3px 3px #ccc;
+    -moz-box-shadow: 3px 3px 3px #ccc;
+    box-shadow: 3px 3px 3px #ccc;
+	padding-bottom: 10px;
+	background: #fff;
 }
 
-.header ul li a:hover{
-	background: none;
-	cursor: hand;
-	cursor: pointer;
-	color: #999;
+.polaroid img {
+  border: 10px solid #fff;
+  width: 100%;
+}
+
+.polaroid p.lead {
+  text-align: center;
+  margin-top: 0px;
+  color: #333;
 }
 
 .footer{
@@ -76,4 +128,9 @@ h1{
 	width: 100%;
 	height: 50px;
 	font-size: 12px;
+	margin-top: 30px;
 }
+
+
+
+
