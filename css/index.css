@@ -31,12 +31,12 @@ body{
 }
 
 a{
-	color: #fff;
+	color: #555;
 	opacity: 0.5;
 }
 
 a:hover, a:focus{
-	color: #fff;
+	color: #555;
 }
 
 .btn{
@@ -108,8 +108,9 @@ h1{
     -webkit-box-shadow: 3px 3px 3px #ccc;
     -moz-box-shadow: 3px 3px 3px #ccc;
     box-shadow: 3px 3px 3px #ccc;
-	padding-bottom: 10px;
+	padding-bottom: 5px;
 	background: #fff;
+	margin-bottom: 40px;
 }
 
 .polaroid img {
@@ -119,7 +120,7 @@ h1{
 
 .polaroid p.lead {
   text-align: center;
-  margin-top: 0px;
+  margin-top: 10px;
   color: #333;
 }
 
