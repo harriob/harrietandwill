@@ -1,7 +1,8 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	background: #F0F4F3;
-	color: #555;
+	background: url("https://pixabay.com/static/uploads/photo/2016/02/11/01/52/wall-paper-1192999_960_720.jpg");
+	color: #2A2419;
+	font-weight: bold;
 }
 
 .header{
@@ -10,13 +11,13 @@ body{
 	height: 80px;
 	top: 0;
 	z-index: 9999;
-	background: #F0F4F3;
+	background: url("https://pixabay.com/static/uploads/photo/2016/02/11/01/52/wall-paper-1192999_960_720.jpg");
 /*	border-bottom: 4px dotted #FFD561;*/
 }
 
 .header ul li a, .header ul li a:focus{
 	text-transform: uppercase;
-	color: #555;
+	color: #2A2419;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 18px;
 	opacity: 1;
@@ -43,16 +44,29 @@ a:hover, a:focus{
 	color: #555;
 }
 
-.btn-success{
-	background-color: #72C39D;
-	color: #fff;
+.btn{
+	background-color: none;
+	border: 2px solid #222;
+	color: #222;
 	opacity: 1;
+	font-family: 'Open Sans Condensed', sans-serif;
+	box-shadow: 3px 3px 0px #333;
+    -webkit-box-shadow: 3px 3px 0px #333;
+    -moz-box-shadow: 3px 3px 0px #333;
 }
 
-.btn:hover{
-	background-color: #72C39D;
-	color: #fff;
+.btn:hover, .btn:focus{
+	
+}
+
+.btn:active{
+	background-color: none;
+	color: #222;
 	opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px #333;
+    -moz-box-shadow: 0px 0px 0px #333;
+	box-shadow: 0px 0px 0px #333;
+	transform: translateY(3px);
 }
 
 .btn-lg{
@@ -71,9 +85,10 @@ a:hover, a:focus{
 
 h1.main-header{
 	text-align: center;
-	font-size: 56px;
+	font-size: 78px;
 	margin-bottom: 10px;
 	margin-top: 20px;
+/*	font-weight: bold;*/
 }
 
 p.sub-header{
@@ -81,12 +96,12 @@ p.sub-header{
 	text-transform: uppercase;
 	font-size: 26px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #555;
+/*	color: #2A2419;*/
 }
 
 h1{
 	text-transform: uppercase;
-	color: #555;
+/*	color: #555;*/
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 56px;
 	margin-top: 60px;
@@ -106,18 +121,22 @@ h1{
 }
 
 .polaroid {
-/*	border: 1px solid #bbb;*/
-    -webkit-box-shadow: 3px 3px 3px #ccc;
-    -moz-box-shadow: 3px 3px 3px #ccc;
-    box-shadow: 3px 3px 3px #ccc;
-	padding-bottom: 5px;
-	background: #fff;
+	/*border: 1px solid #333;
+    -webkit-box-shadow: 3px 3px 0px #333;
+    -moz-box-shadow: 3px 3px 0px #333;
+    box-shadow: 3px 3px 0px #333;*/
+/*	padding: 20px;*/
+/*	background: #fff;*/
 	margin-bottom: 40px;
+	border-radius: 4px;
+    border: 2px solid #333;
+    border-radius: 1px;
 }
 
 .polaroid img {
-  border: 10px solid #fff;
   width: 100%;
+	border: 6px solid #CBB17C;
+ 
 }
 
 .polaroid p.lead {
