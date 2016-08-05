@@ -129,13 +129,13 @@ h1{
 /*	background: #fff;*/
 	margin-bottom: 40px;
 	border-radius: 4px;
-    border: 2px solid #333;
+    border: 1px solid #333;
     border-radius: 1px;
 }
 
 .polaroid img {
   width: 100%;
-	border: 6px solid #CBB17C;
+	/*border: 6px solid #CBB17C;*/
  
 }
 
