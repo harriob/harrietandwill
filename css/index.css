@@ -1,8 +1,9 @@
 body{
 	font-family: 'Roboto', sans-serif;
-	background: #FAFAFA;
-	color: #2A2419;
+	background: #FFF;
+	color: #000;
 	font-weight: bold;
+	background: url("../images/paper_texture.jpg");
 }
 
 .header{
@@ -36,12 +37,11 @@ body{
 }
 
 a{
-	color: #555;
-	opacity: 0.5;
+	color: #200900;
 }
 
 a:hover, a:focus{
-	color: #555;
+	color: #422D1B;
 }
 
 .btn{
@@ -85,7 +85,7 @@ a:hover, a:focus{
 
 h1.main-header{
 	text-align: center;
-	font-size: 78px;
+	font-size: 50px;
 	margin-bottom: 10px;
 	margin-top: 20px;
 /*	font-weight: bold;*/
@@ -94,7 +94,7 @@ h1.main-header{
 p.sub-header{
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 26px;
+	font-size: 18px;
 	font-family: 'Open Sans Condensed', sans-serif;
 /*	color: #2A2419;*/
 }
@@ -151,11 +151,18 @@ h1{
 	height: 50px;
 	font-size: 12px;
 	margin-top: 30px;
+	font-weight: normal;
 }
 
 @media (min-width: 768px) {
 	.container {
 		margin-top: 100px;
+	}
+	h1.main-header{
+		font-size: 78px;
+	}
+	p.sub-header{
+		font-size: 26px;
 	}
 }
 
