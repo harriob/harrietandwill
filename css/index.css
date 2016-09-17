@@ -12,7 +12,7 @@ body{
 	height: 80px;
 	top: 0;
 	z-index: 9999;
-	background: url("https://pixabay.com/static/uploads/photo/2016/02/11/01/52/wall-paper-1192999_960_720.jpg");
+	background: url("");
 /*	border-bottom: 4px dotted #FFD561;*/
 }
 
@@ -87,7 +87,7 @@ h1.main-header{
 	text-align: center;
 	font-size: 50px;
 	margin-bottom: 10px;
-	margin-top: 20px;
+	margin-top: 40px;
 /*	font-weight: bold;*/
 }
 
@@ -106,18 +106,6 @@ h1{
 	font-size: 56px;
 	margin-top: 60px;
 	margin-bottom: 40px;
-}
-
-.buntingLeft{
-	position: absolute;
-	left: 0;
-	top: 50;
-}
-
-.buntingRight{
-	background-image: url("../images/buntingRight.png");
-	width: 50px;
-	height: 50px;
 }
 
 .polaroid {
@@ -158,8 +146,11 @@ h1{
 	.container {
 		margin-top: 100px;
 	}
+	h1{
+		font-size: 58px;
+	}
 	h1.main-header{
-		font-size: 78px;
+		font-size: 58px;
 	}
 	p.sub-header{
 		font-size: 26px;
