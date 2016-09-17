@@ -94,13 +94,11 @@ p.sub-header{
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 18px;
-	font-family: 'Open Sans Condensed', sans-serif;
-/*	color: #2A2419;*/
+	font-family: 'Open Sans Condensed', sans-serif !important;
 }
 
 h1{
 	text-transform: uppercase;
-/*	color: #555;*/
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 40px;
 	margin-top: 60px;
