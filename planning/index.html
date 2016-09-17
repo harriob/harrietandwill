@@ -9,12 +9,10 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/planning.css">
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+	<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="/index.js"></script>
 </head>
 <style>
 body{
@@ -59,9 +57,9 @@ h1{
 						<hr>
 						<b>Invites</b>
 						<br>
-						<a>Save the Date email (end Sept)</a>
+						<a href="email.html">Save the Date email (end Sept)</a>
 						<br>
-						<a>Save the Date Cards (end Sept)</a>
+						<a href="cards.html">Save the Date Cards (end Sept)</a>
 						<br>
 						<a>Official invitation + RSVP email (Feb?)</a>
 						<br>
@@ -119,11 +117,12 @@ h1{
 						<hr>
 						<b>Financials + Contracts</b>
 						<br>
-						<a target="_blank" href="https://docs.google.com/spreadsheets/d/1V65b7hqjV1sjZ1r_KoDuYuUMOUCGZcU27fEJFnVTh7g/edit?usp=sharing">Here</a>
+						<a target="_blank" href="https://docs.google.com/spreadsheets/d/1V65b7hqjV1sjZ1r_KoDuYuUMOUCGZcU27fEJFnVTh7g/edit#gid=0">Expenses</a>
 						<br>
 						<a target="_blank" href="https://drive.google.com/file/d/0ByMSMENCOtL1aFlFMnVWTWdlRnMyUUFoc2loUXJWN2xVWGsw/view?usp=sharing">Awbury Contract</a>
 						<br>
-						<a>Seedling + Sage</a>
+						<a href="https://drive.google.com/file/d/0ByMSMENCOtL1NVAweVlETUQtVmt0dXBqeVhiUWQ2bTh6ZHhB/view?usp=sharing">Seedling + Sage Info</a><br>
+						<a href="https://drive.google.com/file/d/0ByMSMENCOtL1ZDdpeUZFYldPU2NJRFF2TVNtbmkzZ2laVGpn/view?usp=sharing">Seedling + Sage Contract</a>
 						<hr>
 						<b>Gifts</b>
 						<br>
@@ -167,8 +166,7 @@ $(window).load(function(){
 	if(pword == "llama"){
 		$("#allDaContent").show();
 	} else {
-		$("#allDaContent").show();
-		$("#allDaContent").html("<br><br>Wrong password! Please try again!");
+		location.reload();
 	}
 	
 });
