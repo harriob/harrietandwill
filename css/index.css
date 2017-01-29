@@ -37,6 +37,7 @@ body{
 
 a{
 	color: #200900;
+	text-decoration: underline;
 }
 
 a:hover, a:focus{
