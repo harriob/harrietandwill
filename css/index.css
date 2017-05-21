@@ -8,7 +8,7 @@ body{
 .header{
 	padding-top: 5px;
 	position: fixed;
-	height: 65px;
+	height: 55px;
 	top: 0;
 	z-index: 9999;
 	background: url("../images/paper_texture.jpg");
