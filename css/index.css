@@ -19,7 +19,7 @@ body{
 	text-transform: uppercase;
 	color: #111;
 	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 24px;
+	font-size: 18px;
 	text-decoration: none;
 	background: none;
 }
@@ -150,7 +150,7 @@ h1.main-header{
 		font-size: 58px;
 	}
 	h1.main-header{
-		font-size: 70px;
+		font-size: 64px;
 	}
 	p.sub-header{
 		font-size: 26px;
